@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+header {
+    /* background: no-repeat, linear-gradient(-45deg, #ee7752, #f35c96, #23a6d5, #23d5ab); */
+    background: no-repeat, linear-gradient(0deg, black 1px , rgb(194, 194, 194) 50%);
+    /* background-size: 400% 400%; */
+    /* animation: gradient 15s ease infinite; */
+}
+
+
+nav {
+    padding-top: 0.5vw;
+    position: absolute;
+    width: 100%;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.3); */
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-family: 'Itim', cursive;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 10px black;
+    font-size: 2vw;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+li a:hover {
+    opacity: 1;
+    scale: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+#home {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 10px black;
+    font-size: 10vw;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Itim', cursive; */
+}
+
+#quemsou {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3vw 0 3vw 0;
+}
+
+#quemsou p, h2 {
+    /* text-shadow: 1px 1px 2px gray; */
+    color: gray;
+    font-family: 'Itim', cursive;
+    /* font-family: 'Comfortaa', cursive; */
+}
+
+#quemsou a {
+    text-decoration: none;
+    color: darkgray;
+    transition: 0.5s;
+}
+
+#quemsou a:hover {
+    color: rgb(90, 90, 90);
+}
+
+#quemsou h2 {
+    font-size: 5vw;
+    text-align: start;
+}
+
+#quemsou p {
+    font-size: 3vw;
+    text-align: justify;
+    margin-right: 5vw;
+}
+
+#quemsou img {
+    width: 30vw;
+    border-radius: 1.5vw;
+}
+
+#quemsou div {
+    display: grid;
+    gap: 3vw;
+}
+
+#trabalhosf h2 {
+    text-shadow: 1px 1px 10px black;
+    padding : 2vw;
+    text-align: center;
+    font-size: 6vw;
+}
+
+#trabalhosf {
+    min-height: 40vh;
+    background: no-repeat, linear-gradient(180deg, black 1px , rgb(194, 194, 194) 50%);
+}
+
+
+
+details {
+    text-align: center;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+
+#trabalhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1vw;
+    padding-bottom: 2vw;
+}
+
+#trabalhos img {
+    width: 20vw;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+    border: 0.3vw    solid black;
+}
+
+#trabalho {
+    display: grid;
+    gap: 0;
+}
+
+#acessar {
+    margin: 0;
+    padding: 0.5vw;
+    background-color: rgba(255, 255, 255, 0.349);
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    border: 0.2vw solid black;
+    align-items: center;
+}
+
+#acessar a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vw;
+    transition: 0.5s;
+}
+
+#acessar p {
+    font-size: 0.9vw;
+}
+
+/* #acessar a:hover {
+    text-decoration: underline;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(0deg, black 10%, rgb(194, 194, 194) 100%);
+    /* background-color: rgb(51, 51, 82); */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vw;
+
+}
+
+footer h2 {
+    font-size: 6vw;
+    color: gray;
+    text-shadow: 1px 1px 10px black;
+}
+
+footer #redes {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#redes img {
+    width: 10vw;
+
+}
